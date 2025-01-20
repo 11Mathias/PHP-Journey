@@ -15,9 +15,17 @@
         $A = $_GET["a"];
         $B = $_GET["b"];
         echo "Valores recebidos, $A e $B";
+
+        //Absoluto
         echo "<br/>O valor absoluto de $A é " . abs($A);
+
+        //Potencia
         echo "<br/>A potencia de $A<sup>$A</sup> é " . pow($A, $A);
+
+        //Raiz Quadrada
         echo "<br/>A raiz de $A é " . sqrt($A);
+
+        //Arredondamento
         echo "<br/>Arredondando $B fica " . round($B);
 
         ?>

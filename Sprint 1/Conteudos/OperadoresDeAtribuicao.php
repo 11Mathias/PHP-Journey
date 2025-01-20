@@ -8,9 +8,7 @@
 </head>
 <body>
     <?php
-        $a = 10;
-        $b = 200;
-        echo "<h1>fodase</h1>"; 
+       
     ?>
 </body>
 </html>
