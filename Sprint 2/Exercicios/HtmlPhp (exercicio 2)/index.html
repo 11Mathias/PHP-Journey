@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="exercicio2.php" method="get">
+        Nome: <input type="text" name="nome"/><br/>
+        Ano de Nascimento: <input type="number" name="ano"/><br/>
+        <fieldset><legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="Masculino"/>
+            <label for="masc">Masculino</label><br/>
+            <input type="radio" name="sexo" id="fem" value="Feminino"/>
+            <label for="fem">Feminino</label>
+        </fieldset><br/>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
