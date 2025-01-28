@@ -18,6 +18,7 @@
         $tipoVoto = "</br>O voto é obrigatorio";
         echo $tipoVoto;
       }
+    
   ?>
 </body>
 </html>
