@@ -7,7 +7,6 @@
 </head>
 <body>
     <?php
-        //2520
         $nome = $_GET["nome"];
         $a = isset($_GET["ano"]) ? $_GET["ano"] : 1900;
         $i = date("Y") - $a;
