@@ -1,2 +1,2 @@
-##PHP Journey
+## PHP Journey ⛺
 - Acompanhe minha joranda no php 🚀
